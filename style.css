@@ -60,17 +60,33 @@ footer {
     color: #0000ff;
 }
 
+footer p {
+	float: right;
+}
+
+
+
+
+
+
+
 .pe {
     text-align: center;
 }
-
 
 .card-body {
     background-color: #8ca191;
 }
 
-.col-xs-12 {
-    margin-left: 12%;
+.carousel-inner {
+    height: 500px;
+}
+
+.carousel-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
 }
 
 @media screen and (max-width: 776px) {
