@@ -69,6 +69,10 @@ footer {
     background-color: #8ca191;
 }
 
+.col-xs-12 {
+    margin-left: 12%;
+}
+
 @media screen and (max-width: 776px) {
 	.features img {
 		max-width: 90%;
